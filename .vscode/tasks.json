@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run tst command on current file",
+      "type": "shell",
+      "command": "tst",
+      "args": ["generate", "${file}"],          // the file you have open/active
+      "presentation": { "reveal": "always" },
+      "problemMatcher": []
+    }
+  ]
+}

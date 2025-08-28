@@ -1,0 +1,8 @@
+[
+  {
+    "key": "ctrl+alt+r",
+    "mac": "cmd+alt+r",
+    "command": "workbench.action.tasks.runTask",
+    "args": { "task": "Run tst command on current file" }
+  }
+]
